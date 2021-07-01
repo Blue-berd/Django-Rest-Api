@@ -26,7 +26,7 @@ SECRET_KEY = OS.environ['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'git.heroku.com/indbankdb.git','127.0.0.1:8000']
+ALLOWED_HOSTS = ['localhost', 'https://git.heroku.com/indbankdb.git','127.0.0.1:8000']
 DEBUG_PROPAGATE_EXCEPTIONS = False
 
 # Application definition
